@@ -34,7 +34,4 @@ app.use('/patients', patientsRouter)
 const usersRouter = require('./routes/users')
 app.use('/users', usersRouter)
 
-const appointmentsRouter = require('./routes/appointments')
-app.use('/appointments', appointmentsRouter)
-
 module.exports = app;
