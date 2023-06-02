@@ -1,0 +1,21 @@
+{
+  "name": "Matheus Mancio",
+  "date_birth": "12/22/1985",
+  "id_document": "342223963",
+  "email": "matheus@gmail.com",
+  "phone_number": "1699999899",
+  "password": "123456",
+  "profile": "admin",
+  "permission": "admin",
+  
+  "address":{
+      "street": "rua 11",
+      "number": "1234",
+      "complement": "casa",
+      "district": "centro",
+      "city": "Franca",
+      "state": "SP",
+      "zip_code": "14441-135"
+      }
+  
+}
