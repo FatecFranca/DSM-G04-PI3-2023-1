@@ -14,6 +14,6 @@ export const AppRoutes = () => {
                 <Route path='/cadastro' exact element={<Cadastro />} />
                 <Route path='/cadastro2' exact element={<Cadastro2 />} />
             </Routes>
-        </Router>
+        </Router> 
     );
 } 
