@@ -50,7 +50,7 @@ export const Cadastro = () => {
                         </div>
                         <div className="wrap-input">
                             <input className={password !== "" ? 'has-val input': 'input'}  type="password" value={password} onChange={e => setPassword(e.target.value)} />
-                            <span className="focus-input" data-placeholder="Password"></span>
+                            <span className="focus-input" data-placeholder="Senha"></span>
                         </div>
                         <div className="container-login-form-btn">
                             <button className="login-form-btn" >Cadastrar</button>
@@ -63,12 +63,5 @@ export const Cadastro = () => {
                 </div>
             </div>
       </div>
-    );
-}import { CadastroComponent } from "../../components/CadastroComponent";
-
-
-export const Cadastro = () => {
-    return (
-        <CadastroComponent />
     );
 }
